@@ -5,7 +5,7 @@ services:
     image: mysql
     command: ["--default-authentication-plugin=mysql_native_password"]
     ports:
-      - "3304:3304"
+      - "3305:3305"
     environment:
       MYSQL_ROOT_PASSWORD: Dracu183
       MYSQL_DATABASE: docker
@@ -17,7 +17,7 @@ services:
     container_name: php-symfony
     build: ./php-fpm
     ports:
-      - "9000:9000"
+      - "9001:9001"
     depends_on:
       - db
     networks:
@@ -27,7 +27,7 @@ services:
     container_name: nginx-server
     build: ./nginx
     ports:
-      - "83:83"
+      - "81:81"
     depends_on:
       - php
     networks:
