@@ -11,5 +11,4 @@ RUN    php -r "unlink('composer-setup.php');"
 RUN   ./composer install --no-dev
 
 CMD php-fpm;
-EXPOSE 9001
 
