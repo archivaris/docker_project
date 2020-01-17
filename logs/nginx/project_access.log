@@ -7,3 +7,4 @@
 172.24.0.1 - - [17/Jan/2020:11:47:27 +0000] "GET /favicon.ico HTTP/1.1" 404 164857 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0"
 172.24.0.1 - - [17/Jan/2020:11:49:32 +0000] "GET / HTTP/1.1" 404 31942 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0"
 172.24.0.1 - - [17/Jan/2020:11:49:32 +0000] "GET /favicon.ico HTTP/1.1" 404 164857 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0"
+172.24.0.1 - - [17/Jan/2020:13:20:53 +0000] "GET / HTTP/1.1" 404 31942 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0"
