@@ -1,0 +1,2 @@
+172.24.0.1 - - [17/Jan/2020:10:43:19 +0000] "GET / HTTP/1.1" 404 31918 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0"
+172.24.0.1 - - [17/Jan/2020:10:43:19 +0000] "GET /favicon.ico HTTP/1.1" 499 0 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0"
