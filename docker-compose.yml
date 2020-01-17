@@ -11,8 +11,12 @@ services:
       MYSQL_DATABASE: docker
       MYSQL_USER: vulgaris
       MYSQL_PASSWORD: Dracu183
+
+    volumes:
+      - ./data-base:/var/lib/mysql
     networks:
       - db
+
   php:
     container_name: php-symfony
     build:
